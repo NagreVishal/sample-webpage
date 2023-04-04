@@ -6,15 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample pages</title>
 <style>
+    *{
+        background-color: aquamarine;
+    }
   .head{
     display: flex;
     justify-content: center;
-    border: 5px solid red;
-    margin: 10px;
+    border: 2px solid red;
+    font-size: large;
+    background-color: mediumpurple;
   }
+ 
   .navbar{
     display: flex;
     justify-content: space-between;
+  }
+  .sub{
+    color: azure;
+    background-color: black;
+  }
+  hr
+  {
+    border-color: brown;
+  }
+  .read{
+    background-color: red;
+    color: blue;
   }
   .option{
     display: flex;
@@ -23,17 +40,24 @@
   .id{
     margin-left: 20px;
   }
+  .img{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+  }
 </style>
 </head>
 <body>
     <div class="head">
-        NEWS BLOG
+       NEWS BLOG
     </div>
+    <br><br>
     <div class="navbar">
         <div>
-            SELECT categories
+            SELECT CATEGORY
             <br>
-            <select name="cars" id="cars">
+            <select name="cate" id="cate">
+                <option value="Select">Select One</option>
                 <option value="sports">sports</option>
                 <option value="enyertainment">entertainment</option>
                 <option value="comedy">comedy</option>
@@ -46,26 +70,27 @@
         <div>
             SUBSCRIBE
             <br>
-            <input type="text"placeholder="email ADDRESS">
-            <button>subscibe</button>
+            <input type="text"placeholder="Email Address">
+            <button class="sub">Subscibe</button>
         </div>
 
     </div>
     <hr>
     <div class="option">
-<div>
-    <img src="https://picsum.photos/200/200" alt="error">
-    
-</div>
+<div class ="img">
+    <img src="/Img/sports.jpeg" alt="error">
+</div><br>
+
         <div class="id">
             <div>
-                <h2>Title</h2>
+                <h2>Sports</h2>
+                
+                CSK won vs LSG , 3 April.
                 <br>
-                b.mkbfbfdjbkkflb,category one
+                Chennai Super Kings win by 12 runs in their first game back at Chepauk! LSG got off to a promising start, but regular wickets meant that their momentum was hampered, and eventually CSK had the last laugh. Moeen Ali the pick of CSK bowlers with four wickets. 
                 <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem obcaecati officiis, tempore placeat modi repellendus ipsum odit sit porro tempora eaque molestias cum animi possimus velit. Dolor, totam hic!
                 <br>
-                <button>CONTUINE reading</button>
+                <button class="read">CONTUINE reading</button>
                 </div>
         </div>
 
@@ -73,41 +98,41 @@
     
 
     <div class="option">
-        <div>
-            <img src="https://picsum.photos/200/200" alt="error">
+        <div class ="img">
+            <img src="/Img/enter.jpeg" alt="error">
             
-        </div>
+        </div><br>
                 <div class="id">
                     <div>
-                        <h2>Title</h2>
+                        <h2>Entertainment</h2>
                         <br>
-                        b.mkbfbfdjbkkflb,category one
+                        ......28 march.
                         <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem obcaecati officiis, tempore placeat modi repellendus ipsum odit sit porro tempora eaque molestias cum animi possimus velit. Dolor, totam hic!
+                        Podcasts, interviews, videos, and photo galleries covering the latest entertainment news in Australia and around the world. Articles primarily cover celebrity lifestyle, focusing on health, beauty, fashion, as well as travel.
                         <br>
-                        <button>CONTUINE reading</button>
+                        <br>
+                        <button class="read">CONTUINE reading</button>
                         </div>
                 </div>
         
             </div>
 
             <div class="option">
-                <div>
-                    <img src="https://picsum.photos/200/200" alt="error">
+                <div class ="img">
+                    <img src="/Img/comedy.jpeg" alt="error">
                     
                 </div>
                         <div class="id">
                             <div>
-                                <h2>Title</h2>
+                                <h2>Comedy</h2>
                                 <br>
-                                b.mkbfbfdjbkkflb,category one
+                                Top comedy movies, 2 April.
                                 <br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem obcaecati officiis, tempore placeat modi repellendus ipsum odit sit porro tempora eaque molestias cum animi possimus velit. Dolor, totam hic!
+                                The best comedy scenes from comedy movies like dhamaal , Golmaal Fun Unlimited, Golmaal Returns, , Amar Akbar Anthony , Hadh Kardi Aapne , Bawarchi and many more are sure to keep you hooked to this channel. Subscribe and stay updated to indiancomedy channel today.
                                 <br>
-                                <button>CONTUINE reading</button>
+                                <br>
+                                <button class="read">CONTUINE reading</button>
                                 </div>
                         </div>
                 
                     </div>
-</body>
-</html>
